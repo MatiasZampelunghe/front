@@ -1,0 +1,7 @@
+.graficos{
+    align-content: flex-end;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+}
