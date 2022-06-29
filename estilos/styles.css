@@ -366,7 +366,6 @@ footer form p {
     margin-top: 40px;
     height: 300px;
   }
-  }
   h1{
     font-size: 35px;
     width: 500px;
@@ -428,9 +427,17 @@ footer form p {
     display: flex;
     margin: 20px 120px 0 0px;
     width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FFF0EB;
   }
   .texto3{
     display: flex;
     width: 300px;
-    text-align: center;
   }
+  .textoGris{
+    position:relative;
+    right: 70px;
+    width: 300px;
+  }
+}
