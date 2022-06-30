@@ -25,8 +25,7 @@ nav {
   margin: 5%;
 }
 nav a:hover {
-  color: #f3613c;
-  font-size: 150%;
+  color: #b9b9c1;
 }
 .Boton {
   align-items: center;
@@ -37,7 +36,9 @@ nav a:hover {
   color: #ffffff;
   cursor: pointer;
   display: flex;
+  font-size: 70%;
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   height: 40px;
   width: 110px;
   justify-content: center;
@@ -47,6 +48,10 @@ nav a:hover {
   color: #242e52;
   padding: 15px;
 }
+.iconHamburger{
+  display: none;
+}
+
 
 /* main */
 
@@ -76,7 +81,9 @@ h1 {
   color: #ffffff;
   cursor: pointer;
   display: flex;
+  font-size: 70%;
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   flex-direction: column;
   height: 40px;
   width: 110px;
@@ -123,6 +130,7 @@ h3 {
   color: #ffffff;
   cursor: pointer;
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   margin: 15px;
   height: 40px;
   width: 60px;
@@ -172,9 +180,10 @@ h2 {
   justify-content: center;
 }
 .caja1 {
+  align-items: center;
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   text-align: center;
   padding: 10px;
@@ -193,9 +202,10 @@ h2 {
   color: #b9b9c1;
 }
 .caja2 {
+  align-items: center;
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   text-align: center;
   padding: 10px;
@@ -209,9 +219,10 @@ h2 {
   bottom: 180px;
 }
 .caja3 {
+  align-items: center;
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   text-align: center;
   padding: 10px;
@@ -234,7 +245,9 @@ h2 {
   justify-content: center;
   flex-direction: row;
   display: flex;
+  font-size: 70%;
   font-family: "Be Vietnam Pro";
+  font-weight: bold;
   margin: 15px;
   height: 40px;
   width: 110px;
@@ -245,7 +258,8 @@ h2 {
 .section4 {
   align-items: center;
   background-color: #f3613c;
-  background-image: url();
+  background-image: url(../img/bg-simplify-section-desktop.svg);
+  background-position: right -220px bottom 350px ;
   display: flex;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -254,7 +268,7 @@ h2 {
 }
 .divAbajo {
   color: #ffffff;
-  font-weight: 700px;
+  font-weight: bold;
   font-size: 40px;
   width: 460px;
   margin-left: 200px;
@@ -270,7 +284,7 @@ h2 {
   font-family: "Be Vietnam Pro";
   margin-right: 150px;
   height: 40px;
-  width: 110px;
+  width: 130px;
   justify-content: center;
 }
 
@@ -289,6 +303,7 @@ h2 {
 .columnaFooter{
   display: flex;
   justify-content: space-between;
+  width: 500px;
 }
 .iconos {
   color: #ffffff;
@@ -319,7 +334,6 @@ h2 {
 }
 ul li a:hover {
   color: #f3603b;
-  font-size: 150%;
 }
 ul li {
   padding: 4px;
@@ -493,11 +507,12 @@ footer form p {
     flex-direction: column;
     height: 400px;
   }
-  .divAbajo p{
-    text-align: center;
-    font-size: 30px;
+  .divAbajo {
+    color: #ffffff;
     font-weight: bold;
-    width: 248px;
+    font-size: 40px;
+    width: 460px;
+    margin-left: 200px;
   }
   .botonAbajo2{
     margin:0;
@@ -533,10 +548,10 @@ footer form p {
   .imagenFooter{
     margin: 0;
   }
-  .imagenes{
-    display: flex;
+  .section5{
     align-items: center;
-    justify-content: space-between;
-    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+
   }
 }
