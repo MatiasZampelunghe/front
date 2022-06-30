@@ -27,7 +27,7 @@ nav {
 nav a:hover {
   color: #b9b9c1;
 }
-.Boton {
+nav button {
   align-items: center;
   background-color: #F3603B;
   border-radius: 20px;
@@ -297,6 +297,9 @@ h2 {
   justify-content: space-around;
   height: 247px;
 }
+.copyNone{
+  display: none;
+}
 .imagenFooter {
   margin-top: 50px;
   margin-left: 110px;
@@ -347,10 +350,10 @@ ul li {
 }
 .inputFooter {
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   cursor: pointer;
   height: 50px;
-  width: 200px;
+  width: 220px;
 }
 footer form p {
   color: #8c8c94;
@@ -371,12 +374,28 @@ footer form p {
     width: 100%;
     margin-left: 0;
   }
+  header div{
+    width: 100%;
+  }
+  .logo{
+    position: relative;
+    width: 7rem;
+    top: 2px;
+
+  }
   header nav{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    padding: 15% 5% 15% 5%;
+  }
+  .noMostrar{
+    display: none;
+  }
+  .iconHamburger{
+    display: flex;
   }
   header nav a{
     align-items: center;
@@ -442,7 +461,7 @@ footer form p {
   .botones {
     display: flex;
     flex-direction: column;
-    padding-left: 250px;
+    padding-left: 270px;
     padding-bottom: 108px;
     justify-content: space-between;
 
@@ -450,6 +469,9 @@ footer form p {
   .columnas{
     display: flex;
     margin:0 250px 0 10px;
+  }
+  article{
+    margin: 0;
   }
   h5{
     display: flex;
@@ -465,9 +487,15 @@ footer form p {
   }
   .textoGris{
     position:relative;
-    right: 70px;
+    right: 60px;
     width: 300px;
   }
+  .textoGrisAbajo{
+    position:relative;
+    padding: 0px 5px 0px 5px;
+    width: 280px;
+  }
+
   main .section3{
       display: flex;
       flex-direction: column;
@@ -525,16 +553,18 @@ footer form p {
     justify-content: center;
     display: flex;
     flex-direction: column-reverse; 
-    height:600px;
+    height: 520px;
   }
-  
   .pFooter{
     display: none;
   }
-  .columnaFooter{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  .copyNone {
+    display:flex;
+    color: #8c8c94;
+    font-family: "Be Vietnam Pro";
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
   }
   .columna1 {
     margin: 0;
@@ -547,9 +577,7 @@ footer form p {
   .decoracionFooter{
     padding: 0;
   }
-  .imagenFooter{
-    margin: 0;
-  }
+ 
   .section5{
     align-items: center;
     display: flex;
@@ -567,7 +595,7 @@ footer form p {
     width: 0;
   }
   .columna1{
-    padding: 20px;
+    padding: 2em 20px;
   }
   .columna2{
     padding: 0 20px 20px 10px;
@@ -577,9 +605,16 @@ footer form p {
     justify-content: center;
     align-items: center;
   }
-  .iconos{
+  .imagenFooter{
     margin: 0;
-    padding: 40px;
+  }
+  .iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
     font-size: 30px;
   }
+  
 }
